@@ -12,10 +12,10 @@ print ("This is the total requests made in the last year: ",pastyear)
 
 answer = input ("This program will show the number of requests from a web server. Would you like to see them? (yes or no) ")
 if answer == "yes":
-    answer = input("Do you want the number of requests in the past year (past) or total number of requests (total)? ")
+    answer = input("Do you want the number of requests in the past year (past) or total number of requests (total)? yes")
     if answer == "past":  
-            print ("There have been " + str(pastyear) + " requests in the past year")
+            print ("There have been " + str(pastyear) + " requests in the past year.")
     elif answer == "total":
-            print ("There have been " + str(total) + " requests in total")
+            print ("There have been " + str(total) + " requests in total.")
 elif answer == "no":
-    print ("Thank you for your time")                  
+    print ("Thank you for your time.")                  
